@@ -49,6 +49,7 @@ module "lambda" {
   }
 
   // Add environment variables.
+  // This is not needed for our case
   environment = {
     variables = {
       SLACK_URL = var.slack_url
